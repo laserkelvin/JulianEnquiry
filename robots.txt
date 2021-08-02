@@ -1,0 +1,4 @@
+Sitemap: https://laserkelvin.github.io/JulianEnquiry/sitemap.xml
+
+User-agent: *
+Disallow:
