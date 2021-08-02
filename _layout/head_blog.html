@@ -1,0 +1,22 @@
+
+<x-grid columns=4 ai=center class="blog-head-block">
+    <x-col span=1+2 jc=center>
+        {{isdef toc-image}}
+        <figure>
+            <img src={{fill toc-image}} alt="" class="toc-image">
+        </figure>
+        {{end}}
+    </x-col>
+    <x-col span=3..>
+        <h1 class="fullwidth-max">
+            {{fill title}}
+        </h1>
+        {{isdef abstract}}
+        <p>
+            {{fill abstract}}
+        </p>
+        {{end}}
+    </x-col>
+</x-grid>
+
+<hr style="margin-bottom: 3vw;">
