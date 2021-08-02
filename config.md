@@ -19,6 +19,7 @@ generate_rss = true
 website_title = "Julian Enquiry"
 website_descr = "Answering questions with Julia"
 website_url   = "https://laserkelvin.github.io/JulianEnquiry/"
+prepath = "JulianEnquiry"
 +++
 
 <!--
