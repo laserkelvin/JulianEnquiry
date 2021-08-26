@@ -58,10 +58,10 @@ header {
 }
 
 header .blog-name {
-  width: 35%;
+  width: 100%;
   display: inline-block;
   text-align: left;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-family: "Open Sans", monospace;
   padding-top: 10px;
 }
